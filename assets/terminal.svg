@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+<style>
+text{font-family:Consolas,'SF Mono',Menlo,'DejaVu Sans Mono','Courier New',monospace;font-size:17px;white-space:pre}
+.o{opacity:0;animation:o .01s linear forwards}
+@keyframes o{to{opacity:1}}
+.tp{transform-box:fill-box;transform-origin:right}
+@keyframes tp{to{transform:scaleX(0)}}
+.bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0)}
+@keyframes bar{to{transform:scaleX(1)}}
+.cam{transform-box:fill-box;transform:scaleX(0)}
+@keyframes cresce{to{transform:scaleX(1)}}
+.cur{opacity:0;animation:o .01s linear forwards,pisca 1s steps(1) infinite}
+@keyframes pisca{50%{fill:transparent}}
+.led{animation:pisca 1.2s steps(1) infinite}
+@keyframes bico{0.000%{transform:translate(785.0px,328px)}5.484%{transform:translate(875.0px,328px)}5.645%{transform:translate(885.0px,316px)}11.129%{transform:translate(775.0px,316px)}11.290%{transform:translate(768.0px,304px)}16.774%{transform:translate(892.0px,304px)}16.935%{transform:translate(896.0px,292px)}22.419%{transform:translate(764.0px,292px)}22.581%{transform:translate(762.0px,280px)}28.065%{transform:translate(898.0px,280px)}28.226%{transform:translate(897.0px,268px)}33.710%{transform:translate(763.0px,268px)}33.871%{transform:translate(766.0px,256px)}39.355%{transform:translate(894.0px,256px)}39.516%{transform:translate(889.0px,244px)}45.000%{transform:translate(771.0px,244px)}45.161%{transform:translate(778.0px,232px)}50.645%{transform:translate(882.0px,232px)}50.806%{transform:translate(874.0px,220px)}56.290%{transform:translate(786.0px,220px)}56.452%{transform:translate(793.0px,208px)}61.935%{transform:translate(867.0px,208px)}62.097%{transform:translate(862.0px,196px)}67.581%{transform:translate(798.0px,196px)}67.742%{transform:translate(800.0px,184px)}73.226%{transform:translate(860.0px,184px)}73.387%{transform:translate(861.0px,172px)}78.871%{transform:translate(799.0px,172px)}79.032%{transform:translate(794.0px,160px)}84.516%{transform:translate(866.0px,160px)}84.677%{transform:translate(872.0px,148px)}90.161%{transform:translate(788.0px,148px)}100%{transform:translate(935px,120px)}}
+@keyframes eixo{0.000%{transform:translateY(328px)}5.484%{transform:translateY(328px)}5.645%{transform:translateY(316px)}11.129%{transform:translateY(316px)}11.290%{transform:translateY(304px)}16.774%{transform:translateY(304px)}16.935%{transform:translateY(292px)}22.419%{transform:translateY(292px)}22.581%{transform:translateY(280px)}28.065%{transform:translateY(280px)}28.226%{transform:translateY(268px)}33.710%{transform:translateY(268px)}33.871%{transform:translateY(256px)}39.355%{transform:translateY(256px)}39.516%{transform:translateY(244px)}45.000%{transform:translateY(244px)}45.161%{transform:translateY(232px)}50.645%{transform:translateY(232px)}50.806%{transform:translateY(220px)}56.290%{transform:translateY(220px)}56.452%{transform:translateY(208px)}61.935%{transform:translateY(208px)}62.097%{transform:translateY(196px)}67.581%{transform:translateY(196px)}67.742%{transform:translateY(184px)}73.226%{transform:translateY(184px)}73.387%{transform:translateY(172px)}78.871%{transform:translateY(172px)}79.032%{transform:translateY(160px)}84.516%{transform:translateY(160px)}84.677%{transform:translateY(148px)}90.161%{transform:translateY(148px)}100%{transform:translateY(120px)}}
+</style>
+<rect x="1" y="1" width="998" height="398" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<path d="M1 15a14 14 0 0 1 14-14H985a14 14 0 0 1 14 14V46H1Z" fill="#161b22"/>
+<rect x="1" y="46" width="998" height="1" fill="#30363d"/>
+<circle cx="28" cy="24" r="7" fill="#ff5f57"/><circle cx="50" cy="24" r="7" fill="#febc2e"/><circle cx="72" cy="24" r="7" fill="#28c840"/>
+<text x="500" y="29" text-anchor="middle" fill="#8b949e" style="font-size:14px">kuster@oficina: ~ — bash</text>
+<g fill="#484f58">
+<rect x="696" y="66" width="10" height="290" rx="2"/><rect x="954" y="66" width="10" height="290" rx="2"/>
+<rect x="696" y="66" width="268" height="10" rx="2"/><rect x="686" y="352" width="288" height="10" rx="3"/>
+</g>
+<rect x="730" y="340" width="200" height="8" rx="2" fill="#6e7681"/>
+<rect x="785.0" y="328" width="90" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 7.91s forwards"/><rect x="775.0" y="316" width="110" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 8.26s forwards"/><rect x="768.0" y="304" width="124" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 8.61s forwards"/><rect x="764.0" y="292" width="132" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 8.96s forwards"/><rect x="762.0" y="280" width="136" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 9.31s forwards"/><rect x="763.0" y="268" width="134" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 9.66s forwards"/><rect x="766.0" y="256" width="128" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 10.01s forwards"/><rect x="771.0" y="244" width="118" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 10.36s forwards"/><rect x="778.0" y="232" width="104" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 10.71s forwards"/><rect x="786.0" y="220" width="88" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 11.06s forwards"/><rect x="793.0" y="208" width="74" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 11.41s forwards"/><rect x="798.0" y="196" width="64" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 11.76s forwards"/><rect x="800.0" y="184" width="60" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 12.11s forwards"/><rect x="799.0" y="172" width="62" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 12.46s forwards"/><rect x="794.0" y="160" width="72" height="11" rx="2" fill="#f0883e" class="cam" style="transform-origin:left;animation:cresce 0.35s linear 12.81s forwards"/><rect x="788.0" y="148" width="84" height="11" rx="2" fill="#ffa657" class="cam" style="transform-origin:right;animation:cresce 0.35s linear 13.16s forwards"/>
+<g style="animation:eixo 6.20s linear 7.91s both"><rect x="706" y="-25" width="248" height="6" rx="2" fill="#6e7681"/></g>
+<g style="animation:bico 6.20s linear 7.91s both">
+<rect x="-14" y="-32" width="28" height="20" rx="4" fill="#484f58" stroke="#6e7681"/>
+<rect x="-6" y="-12" width="12" height="6" fill="#8b949e"/><path d="M-4 -6H4L0 0Z" fill="#ffa657"/>
+<circle cx="8" cy="-22" r="2.5" fill="#39d353" class="led"/>
+</g>
+<text x="830" y="388" text-anchor="middle" fill="#8b949e" style="font-size:13px">// do código à peça física</text>
+<text x="30" y="96" class="o" style="animation-delay:0.40s"><tspan fill="#39d353">kuster@oficina</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+<rect x="213.6" y="80" width="69.2" height="22" fill="#0d1117" class="tp" style="animation:tp 0.42s steps(6) 0.70s forwards"/>
+<text x="30" y="134" class="o" style="animation-delay:1.37s"><tspan fill="#c9d1d9" font-size="30" font-weight="700">Kuster</tspan></text>
+<text x="30" y="174" class="o" style="animation-delay:1.67s"><tspan fill="#39d353">kuster@oficina</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">cat foco.txt</tspan></text>
+<rect x="213.6" y="158" width="130.4" height="22" fill="#0d1117" class="tp" style="animation:tp 0.84s steps(12) 1.97s forwards"/>
+<text x="30" y="202" class="o" style="animation-delay:3.06s"><tspan fill="#d2a8ff">Full Stack</tspan><tspan fill="#8b949e">  &amp;&amp;  </tspan><tspan fill="#ffa657">CAD 3D</tspan><tspan fill="#8b949e">  &amp;&amp;  </tspan><tspan fill="#79c0ff">Impressão 3D</tspan></text>
+<text x="30" y="240" class="o" style="animation-delay:3.36s"><tspan fill="#39d353">kuster@oficina</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">ls ~/projetos</tspan></text>
+<rect x="213.6" y="224" width="140.6" height="22" fill="#0d1117" class="tp" style="animation:tp 0.91s steps(13) 3.66s forwards"/>
+<text x="30" y="268" class="o" style="animation-delay:4.82s"><tspan fill="#58a6ff" font-weight="700">sistemas/</tspan><tspan>  </tspan><tspan fill="#58a6ff" font-weight="700">lojas-online/</tspan><tspan>  </tspan><tspan fill="#58a6ff" font-weight="700">pecas-3d/</tspan><tspan>  </tspan><tspan fill="#58a6ff" font-weight="700">automacoes-ia/</tspan><tspan>  </tspan></text>
+<text x="30" y="306" class="o" style="animation-delay:5.12s"><tspan fill="#39d353">kuster@oficina</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">./fatiar peca.step &amp;&amp; ./imprimir</tspan></text>
+<rect x="213.6" y="290" width="334.4" height="22" fill="#0d1117" class="tp" style="animation:tp 2.24s steps(32) 5.42s forwards"/>
+<text x="30" y="334" class="o" style="animation-delay:7.91s"><tspan fill="#8b949e">[</tspan></text>
+<rect x="44" y="321" width="300" height="14" rx="2" fill="#161b22" class="o" style="animation-delay:7.91s"/>
+<rect x="44" y="321" width="300" height="14" rx="2" fill="#ffa657" class="bar" style="animation:bar 5.60s steps(16) 7.91s forwards"/>
+<text x="350" y="334" class="o" style="animation-delay:7.91s" fill="#8b949e">]</text>
+<text x="370" y="334" class="o" style="animation-delay:13.81s" fill="#39d353">✔ peça impressa</text>
+<text x="30" y="372" class="o" style="animation-delay:14.21s"><tspan fill="#39d353">kuster@oficina</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9"></tspan></text>
+<rect x="213.6" y="357" width="10" height="19" fill="#c9d1d9" class="cur" style="animation-delay:14.21s"/>
+</svg>

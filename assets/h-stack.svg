@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="54" viewBox="0 0 1000 54">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffa657"/><stop offset="1" stop-color="#ffa657" stop-opacity="0"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="52" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text x="24" y="34" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono','Courier New',monospace" font-size="20" style="white-space:pre"><tspan fill="#8b949e">// 02  </tspan><tspan fill="#ffa657">&gt; </tspan><tspan fill="#39d353" font-weight="700">stack</tspan><tspan fill="#c9d1d9">()</tspan></text>
+<rect x="234" y="26" width="742" height="2" fill="url(#g)"/>
+</svg>
